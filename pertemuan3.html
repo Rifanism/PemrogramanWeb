@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #nav-bar{
+            background-color: tomato;
+            padding: 2%;
+        }
+
+        #nav-menu{
+            text-decoration: none;
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-right: 10px;
+        }
+
+        input, select{
+            margin-bottom: 2%;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav id="nav-bar">
+        <a href="index.html" id="nav-menu">Dashboard</a>
+        <a href="#" id="nav-menu">Profile</a>
+        <a href="#" id="nav-menu">Settings</a>
+    </nav>
+    <header>
+        <h1>Form Kehadiran Praktikan</h1>
+    </header>
+    <form action="#" method="post" target="_self">
+        <label>Nama:</label>
+        <input type="text" placeholder="Masukkan Nama"><br>
+        <label>NPM:</label>
+        <input type="number" placeholder="Masukkan NPM"><br>
+        <label>Kelas:</label>
+        <select name="prodi" id="prodi">
+            <option>S1 - Sistem Informasi</option>
+            <option>S1 - Ilmu Komputer</option>
+            <option>D3 - Manajemen Informatika</option>
+        </select>
+        <br>
+        <label>Tanggal:</label>
+        <input type="date"><br>
+        <label>Waktu:</label>
+        <input type="time"><br>
+        
+        <input type="submit" id="submit-btn">
+    </form>
+</body>
+</html>
