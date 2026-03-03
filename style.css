@@ -1,0 +1,67 @@
+body {
+    background-color: pink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nav-bar{
+    background-color: palevioletred;
+    padding: 1rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#nav-menu{
+    text-decoration: none;
+    color: black;
+    padding: 0 15px 0 15px;
+    font-weight: 600;
+}
+
+input, select{
+    margin-bottom: 2%;
+    padding: 5px;
+}
+
+#form-hd{
+    display: flex;
+    justify-content: center;
+}
+
+#title-form {
+    padding-left: 5px;
+}
+
+#form-input{
+    background-color: palevioletred;
+    padding: 1px 15px 10px 5px;
+    border-radius: 15px;
+    width: fit-content;
+    margin: auto;
+}
+
+label {
+    font-weight: 500;
+    padding-left: 7px;
+}
+
+input, select {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid  peachpuff;
+    padding: 7px;
+    margin-top: 5px;
+    width: 90%;
+}
+
+#submit-btn {
+    border-radius: 20px;
+    background-color: peachpuff;
+    padding: 10px 100px 10px 100px;
+    margin: 20px 100px 10px 25px;
+}
+
+#submit-btn:hover {
+    background-color: rgb(255, 204, 159);
+}
